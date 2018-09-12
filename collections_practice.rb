@@ -12,10 +12,10 @@ def remove_non_strings(array)
   array.select {|i| i.class == String }
 end
 def count_elements(array)
- uniq = array.uniq 
- newarray = []
- uniq.each {|i| newarray.push([":count" => array.count(i), i ])}
- newarray
+ #uniq = array.uniq 
+ #newarray = []
+ #uniq.each {|i| newarray.push([":count" => array.count(i), i ])}
+# newarray
 end
 def merge_data
 end
