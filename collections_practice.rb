@@ -14,7 +14,7 @@ end
 def count_elements(array)
  uniq = array.uniq 
  newarray = []
- uniq.each {|i| newarray.push([":count" => array.count(i), i])}
+ uniq.each {|i| newarray.push({":count" => array.count(i), i})}
  newarray
 end
 def merge_data
